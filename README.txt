@@ -7,6 +7,14 @@
 How to install and set up Ant:
 
 1. Download the Ant Migration Tool from: https://developer.salesforce.com/docs/atlas.en-us.daas.meta/daas/forcemigrationtool_install.htm
+	- When installing Ant, you need to add an ANT_HOME environment variable and update your PATH.
+	
+	- New Environment Variable:
+		- Name: ANT_HOME
+		- Path: /path/to/your/ant/directory
+	- Update PATH
+		- Append everything after the colon to the end of PATH exactly as written: %ANT_HOME%\bin
+
 2. Navigate to where your downloads are stored, and navigate to salesforce_ant_VERSION/sample
 3. Copy and paste the following to the bottom of build.xml:
 
